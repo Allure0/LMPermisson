@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openSinglePermisson(View view) {
-
         LMPermissonHelper.with(MainActivity.this)
                 .requestCode(SINGLE_REQUEST_CODE)
                 .permissionStrings(permission)
@@ -47,8 +46,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openMorePermisson(View view) {
-
-
         LMPermissonHelper.with(MainActivity.this)
                 .requestCode(MORE_REQUEST_CODE)
                 .permissionStrings(PERMISSIONS)
